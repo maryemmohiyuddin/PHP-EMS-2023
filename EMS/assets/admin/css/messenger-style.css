@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Messenger sidebar styles */
+.messenger-sidebar {
+    background-color: #1976D2;
+    color: #fff;
+    padding: 20px;
+}
+
+.messenger-sidebar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.messenger-sidebar .details span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.messenger-sidebar .users-list {
+    /* Add styles for the users list */
+}
+
+/* Messenger chat styles */
+.messenger-chat {
+    background-color: #fff;
+    padding: 20px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.messenger-chat .wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.messenger-chat .back-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #1976D2;
+    font-size: 24px;
+}
+
+.messenger-chat img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.messenger-chat .details span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.messenger-chat .chat-box {
+    /* Add styles for the chat box */
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.messenger-chat .typing-area {
+    margin-top: 20px;
+}
+
+.messenger-chat .input-field {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.messenger-chat button {
+    background-color: #1976D2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.messenger-chat button:hover {
+    background-color: #1565C0;
+}
